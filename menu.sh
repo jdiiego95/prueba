@@ -1,6 +1,9 @@
 #!/bin/bash
 function  functions {
-    sudo service $1 $2
+    sudo service $service $1
+}
+function functionsWebHook {
+    curl -X POST -H 'Content-type: application/json' --data '{"text":"'$service' fue '$1'"}' https://hooks.slack.com/services/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
 }
 
 echo "Menu"
@@ -26,20 +29,22 @@ do
     elif [ "$opc" = "$Opc4" ]; then 
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service restart
+    functions restart
+    functionsWebHook reiniciado
  
  
     elif [ "$opc" = "$Opc3" ]; then
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service stop
+    functions stop
+    functionsWebHook desactivado
  
  
     elif [ "$opc" = "$Opc2" ]; then
     echo "Escriba el nombre del servicio que desea activar"
     read service
-    functions $service start
- 
+    functions start
+    functionsWebHook activado
  
     elif [ "$opc" = "$Opc1" ]; then # La opción1 nos permite visualizar los permisos mediante ls -la
     echo "Listado de servicios"
