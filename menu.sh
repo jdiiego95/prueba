@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 function  functions {
     sudo service $service $1
 }
