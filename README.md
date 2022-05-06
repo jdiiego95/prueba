@@ -32,30 +32,19 @@ En el cual, en la opción 1 le permitirá listar todos los servicios, ya sea los
 
 ### Rama Pruebas
 
-<<<<<<< HEAD
-Tiene la misma ejecución que la rama anterior, solo que para esta rama se generó una carpeta llamada Reporte, la cual tiene un archivo reporte.log, donde guarda el historial de las funciones al activarlas, desactivarlas y reiniciarlas
-=======
 Tiene la misma ejecución que la rama anterior, solo que para esta rama se generó una carpeta llamada Reporte, la cual tiene un archivo reporte.log, donde guarda el historial de las funciones al activarlas, desactivarlas y restablecerlas
->>>>>>> 190d2fb07bf33f351e19cf14ffbda501021d6fad
 ![Image-2](https://i.postimg.cc/Pq3LmDbr/Captura.jpg)
 
 ### Rama Desarrollo
 
-<<<<<<< HEAD
-Tiene la misma ejecución que las ramas anteriores, solo que para esta rama se genera un reporte en un webhook de slack cuando las funciones se activen, desactiven o reinicien
-=======
 Tiene la misma ejecución que las ramas anteriores, solo que para esta rama se genera un reporte en un webhook cuando las funciones se activen, desactiven o restablezcan
->>>>>>> 190d2fb07bf33f351e19cf14ffbda501021d6fad
 
 ## Biblografia
 
-- [](https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script/#:~:text=Para%20crear%20un%20script%20en,Un%20editor%20de%20texto%20gr%C3%A1fico.)
-- [](https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener)
-- [](https://conocimientolibre.mx/servicios-ubuntu/)
-- [](https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/)
-- [](https://atareao.es/tutorial/scripts-en-bash/log-en-bash/)
-- [](https://www.studytonight.com/post/solved-getting-error-while-executing-a-sh-file-binbashm-bad-interpreter)
-<<<<<<< HEAD
-- [](https://diarioinforme.com/como-enviar-un-mensaje-a-slack-desde-un-script-bash/#:~:text=Haga%20clic%20en%20%22Agregar%20nuevo,sus%20DM%20y%20recibir%C3%A1n%20notificaciones.)
-=======
->>>>>>> 190d2fb07bf33f351e19cf14ffbda501021d6fad
+- [https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script](https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script/#:~:text=Para%20crear%20un%20script%20en,Un%20editor%20de%20texto%20gr%C3%A1fico.)
+- [https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener](https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener)
+- [https://conocimientolibre.mx/servicios-ubuntu/](https://conocimientolibre.mx/servicios-ubuntu/)
+- [https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/](https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/)
+- [https://atareao.es/tutorial/scripts-en-bash/log-en-bash/](https://atareao.es/tutorial/scripts-en-bash/log-en-bash/)
+- [https://www.studytonight.com/post/solved-getting-error-while-executing-a-sh-file-binbashm-bad-interpreter](https://www.studytonight.com/post/solved-getting-error-while-executing-a-sh-file-binbashm-bad-interpreter)
+- [https://diarioinforme.com/como-enviar-un-mensaje-a-slack-desde-un-script-bash/](https://diarioinforme.com/como-enviar-un-mensaje-a-slack-desde-un-script-bash/)
