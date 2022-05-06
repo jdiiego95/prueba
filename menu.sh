@@ -42,7 +42,7 @@ do
     functions start
  
  
-    elif [ "$opc" = "$Opc1" ]; then # La opción1 nos pemite visualiza los pemisos mediante ls -la
+    elif [ "$opc" = "$Opc1" ]; then 
     echo "Listado de servicios"
     functions --status-all
  
