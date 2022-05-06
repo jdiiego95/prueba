@@ -32,4 +32,18 @@ En el cual, en la opción 1 le permitirá listar todos los servicios, ya sea los
 
 ### Rama Pruebas
 
-Tiene la misma ejecuacion que la rama anterior, solo que para esta rama se genero una carpeta llamada
+Tiene la misma ejecución que la rama anterior, solo que para esta rama se generó una carpeta llamada Reporte, la cual tiene un archivo reporte.log, donde guarda el historial de las funciones al activarlas, desactivarlas y restablecerlas
+![Image-2](https://i.postimg.cc/Pq3LmDbr/Captura.jpg)
+
+### Rama Desarrollo
+
+Tiene la misma ejecución que las ramas anteriores, solo que para esta rama se genera un reporte en un webhook cuando las funciones se activen, desactiven o restablezcan
+
+## Biblografia
+
+- [](https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script/#:~:text=Para%20crear%20un%20script%20en,Un%20editor%20de%20texto%20gr%C3%A1fico.)
+- [](https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener)
+- [](https://conocimientolibre.mx/servicios-ubuntu/)
+- [](https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/)
+- [](https://atareao.es/tutorial/scripts-en-bash/log-en-bash/)
+- [](https://www.studytonight.com/post/solved-getting-error-while-executing-a-sh-file-binbashm-bad-interpreter)
