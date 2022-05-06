@@ -1,6 +1,6 @@
 #!/bin/bash
 function  functions {
-    sudo service $1 $2
+    sudo service $service $1
 }
 
 echo "Menu"
@@ -21,24 +21,24 @@ do
     elif [ "$opc" = "$Opc5" ]; then 
     echo "Escriba el nombre del servicio verificar el estado"
     read service
-    functions $service status
+    functions status
 
     elif [ "$opc" = "$Opc4" ]; then 
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service restart
+    functions restart
  
  
     elif [ "$opc" = "$Opc3" ]; then
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service stop
+    functions stop
  
  
     elif [ "$opc" = "$Opc2" ]; then
     echo "Escriba el nombre del servicio que desea activar"
     read service
-    functions $service start
+    functions start
  
  
     elif [ "$opc" = "$Opc1" ]; then # La opción1 nos permite visualizar los permisos mediante ls -la
