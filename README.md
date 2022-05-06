@@ -26,6 +26,7 @@ Para ejecutar el codigo, se debe ingresar a la terminal de lunix sobre la carpet
 ### Rama producción
 
 Después de ejecutar el código sé mostrar un menú como el siguiente:
+
 ![Image-1](https://i.postimg.cc/pXbH1dqW/Captura.jpg)
 
 En el cual, en la opción 1 le permitirá listar todos los servicios, ya sea los que estén activados o desactivados, en las demás opciones como se evidencia en los títulos el 2 permite Activar un servicio, el 3 desactivarlo, el 4 reiniciarlo y el 5 verificar en que estado se encuentra el servicio, y verificar que se esté ejecutando correctamente, en el uso solo se debe colocar el nombre del servicio y el algoritmo sé encargar de la función que escoja.
@@ -33,6 +34,7 @@ En el cual, en la opción 1 le permitirá listar todos los servicios, ya sea los
 ### Rama Pruebas
 
 Tiene la misma ejecución que la rama anterior, solo que para esta rama se generó una carpeta llamada Reporte, la cual tiene un archivo reporte.log, donde guarda el historial de las funciones al activarlas, desactivarlas y restablecerlas
+
 ![Image-2](https://i.postimg.cc/Pq3LmDbr/Captura.jpg)
 
 ### Rama Desarrollo
