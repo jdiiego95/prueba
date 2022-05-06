@@ -1,6 +1,12 @@
 #!/bin/bash
 function  functions {
-    sudo service $1 $2
+    sudo service $service $1
+}
+function  functionsR {
+    echo -e "$(date +%c) $service $1" >> Reporte/reporte.log 
+}
+function  functionsLogger {
+    logger "$service $1"
 }
 
 echo "Menu"
@@ -26,20 +32,23 @@ do
     elif [ "$opc" = "$Opc4" ]; then 
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service restart
- 
+    functions restart
+    functionsR Restablecido
+    functionsLogger Restablecido
  
     elif [ "$opc" = "$Opc3" ]; then
     echo "Escriba el nombre del servicio que desea desactivar"
     read service
-    functions $service stop
- 
+    functions stop
+    functionsR Desactivado 
+    functionsLogger Desactivado
  
     elif [ "$opc" = "$Opc2" ]; then
     echo "Escriba el nombre del servicio que desea activar"
     read service
-    functions $service start
- 
+    functions start
+    functionsR Activado 
+    functionsLogger Activado
  
     elif [ "$opc" = "$Opc1" ]; then # La opción1 nos permite visualizar los permisos mediante ls -la
     echo "Listado de servicios"
