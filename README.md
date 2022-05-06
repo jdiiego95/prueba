@@ -13,13 +13,13 @@
 - La rama de desarrollo generará un mensaje a un webhook cuando se active, desactive y reinicie un servicio
 - La rama de pruebas debe generar un mensaje y almacenarlo en un log cuando se active, desactive y reinicie un servicio
 
-# Introduction
+# Introducción
 
-Lo que se pretende con este proyecto es crear un codigo que sirva para subir, bajar y reiniciar los servicios de linux
+Lo que se pretende con este proyecto es crear un código que sirva para subir, bajar y reiniciar los servicios de linux
 
 ## Instalación
 
-Para ejecutar el codigo, se debe ingresar a la terminal de lunix sobre la carpeta que se almaseno ejecutar `./menu.sh`
+Para ejecutar el código, se debe ingresar a la terminal de lunix sobre la carpeta que se almaseno ejecutar `./menu.sh`
 
 ## Uso
 
@@ -41,7 +41,7 @@ Tiene la misma ejecución que la rama anterior, solo que para esta rama se gener
 
 Tiene la misma ejecución que las ramas anteriores, solo que para esta rama se genera un reporte en un webhook cuando las funciones se activen, desactiven o restablezcan
 
-## Biblografia
+## Bibliografía
 
 - [https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script](https://computernewage.com/2019/01/13/scripting-linux-bash-crear-ejecutar-script/#:~:text=Para%20crear%20un%20script%20en,Un%20editor%20de%20texto%20gr%C3%A1fico.)
 - [https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener](https://computernewage.com/2019/09/20/linux-terminal-servicios-gestion/#systemctl-servicio-iniciar-detener)
