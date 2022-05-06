@@ -24,7 +24,7 @@ do
     elif [ "$opc" = "$Opc5" ]; then 
     echo "Escriba el nombre del servicio para verificar el estado"
     read service
-    functions $service status
+    functions status
 
     elif [ "$opc" = "$Opc4" ]; then 
     echo "Escriba el nombre del servicio que desea reiniciar"
