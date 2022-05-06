@@ -21,20 +21,20 @@ Opc6="Salir"
 select opc in "$Opc1" "$Opc2" "$Opc3" "$Opc4" "$Opc5" "$Opc6" ;
 do
     if [ "$opc" = "$Opc6"  ]; then 
-        echo "Hasta la próxima!" # Si quiere borrar el archivo lo borra , si no salimos del programa mediante exit.
+        echo "Hasta la próxima!" 
         exit
     
     elif [ "$opc" = "$Opc5" ]; then 
-    echo "Escriba el nombre del servicio verificar el estado"
+    echo "Escriba el nombre del servicio para verificar el estado"
     read service
     functions $service status
 
     elif [ "$opc" = "$Opc4" ]; then 
-    echo "Escriba el nombre del servicio que desea desactivar"
+    echo "Escriba el nombre del servicio que desea reiniciar"
     read service
     functions restart
-    functionsR Restablecido
-    functionsLogger Restablecido
+    functionsR Reiniciado
+    functionsLogger Reiniciado
  
     elif [ "$opc" = "$Opc3" ]; then
     echo "Escriba el nombre del servicio que desea desactivar"
@@ -50,7 +50,7 @@ do
     functionsR Activado 
     functionsLogger Activado
  
-    elif [ "$opc" = "$Opc1" ]; then # La opción1 nos permite visualizar los permisos mediante ls -la
+    elif [ "$opc" = "$Opc1" ]; then 
     echo "Listado de servicios"
     functions --status-all
  
