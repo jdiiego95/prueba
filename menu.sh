@@ -3,7 +3,7 @@ function  functions {
     sudo service $service $1
 }
 function functionsWebHook {
-    curl -X POST -H 'Content-type: application/json' --data '{"text":"'$service' fue '$1'"}' https://hooks.slack.com/services/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
+    curl -X POST -H 'Content-type: application/json' --data '{"text":"'$service' fue '$1'"}' https://hooks.slack.com/services/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
 }
 
 echo "Menú"
