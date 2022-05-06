@@ -8,8 +8,8 @@ echo "Menú"
 
 Opc1="Visualizar todos los servicios"
 Opc2="Activar servicio"
-Opc3="desactiva servicio"
-Opc4="Reinicia servicio"
+Opc3="desactivar servicio"
+Opc4="Reiniciar servicio"
 Opc5="Verificar estado de un servicio"
 Opc6="Salir"
  
